@@ -1,0 +1,702 @@
+/*Estrutura + index*/
+
+body{
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+	background-color: #fff;
+	font-family: tahoma, arial, verdana;
+    background-image: url(../img/fundo.png);
+    background-repeat: repeat-x;
+}
+
+#container{
+    background-color: #fff;
+    width: 962px;
+    margin: auto;
+    position: relative;
+    margin-top: 140px;
+}
+
+.logo{
+    background-image: url(../img/logo.PNG);
+    background-position: -8px 3px;
+    background-size: 404%;
+    height: 127px;
+    width: 143px;
+    left: 16px;
+    top: -76px;
+    position: absolute;
+} 
+
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background: #000;
+    padding: 7px 0 13px;
+}
+
+.cabecalho ul {
+    width: auto;
+    margin: 10px 0 0 0;
+}
+
+.cabecalho ul li {
+    display: inline-block;
+}
+
+.cabecalho ul li a{
+	font-size: 20px;
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.cabecalho ul li a:hover{
+	color: rgb(15, 248, 50);
+    font-size: 23px;
+}
+
+.banner{
+    background-image: url(../img/banner.png);
+    background-position: 1px;
+    width: 962px;
+    height: 392px;
+}
+
+.produtos h3 {
+	font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: tahoma, arial;
+    padding: 20px 0px 20px 10px;
+    width: 100%;
+}
+
+
+.servicos h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: tahoma, arial;
+    padding: 16px 0 20px 6px;
+    width: 100%;
+}
+
+.imgPosicao-1{
+    background-position: 293px 290px;
+}
+
+.imgPosicao-2{
+    background-position: -4px 290px;
+}
+
+.imgPosicao-3{
+    background-position: 440px 290px;
+}
+
+.imgPosicao-4{
+    background-position: 735px 290px;
+}
+
+.imgProd{
+    background-image: url(../img/imagensA.png);
+    width: 130px;
+    height: 180px;
+    margin: 0 auto;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destaque {
+    margin-left: auto;
+    width: fit-content;
+    margin-top: 30px;
+    color: rgb(231, 8, 8);
+    margin-right: 2px;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+.box .destaque {
+    font-size: 14px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box {
+    display: block;
+    border: 1px solid;
+    padding: 5px;
+    width: 22.3%;
+    cursor: pointer;
+    transition: transform .3s ease;
+    padding-top: 35px;
+}
+
+.servico-1 h4{
+    font-size: 18px;
+    color: black;
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.servico-2 h4{
+    font-size: 18px;
+    color: black;
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.servico-1 .img1{
+    background-image: url(../img/pivo.png);
+    background-position: -15px 286px;
+    width: 100%;
+    height: 290px;
+}
+
+.servico-2 .img2{
+    background-image: url(../img/inoculante.png);
+    background-position: 595px 290px;
+    width: 100%;
+    height: 290px;
+}
+   
+.servico-1, .servico-2{
+    display: block;
+    width: 471px;
+}
+
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servico-1 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+.servico-2 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+.rodape{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape p{
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.imgRedesocial-1{
+    background-image: url(../img/imagensB.png);
+    background-position: 666px 52px;
+    height: 54px;
+    width: 47px;
+    position: relative;
+    top: 35px;
+}
+
+.imgRedesocial-2{
+    background-image: url(../img/imagensB.png);
+    background-position: 1312px 45px;
+    height: 35px;
+    width: 54px;
+    position: relative;
+    right: 44px;
+    bottom: 12px;
+}
+
+.imgRedesocial-3{
+    background-image: url(../img/imagensB.png);
+    background-position: 1949px 44px;
+    height: 35px;
+    width: 54px;
+    position: relative;
+    right: 80px;
+    bottom: 46px;
+}
+
+/*doc*/
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.sobre h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(15, 248, 50);
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.sobre1 p{
+    display: block;
+    width: 962px;
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+.doc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.pcores{
+    width: 300px;
+    height: 213px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.pcores h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(15, 248, 50);
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+}
+.pcores .verde{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    background-color: rgb(15, 248, 50);
+    color:#000
+}
+
+.pcores .branco{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    background-color: #fff;
+    color:#000
+}
+
+.pcores .preto{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    background-color: #000;
+    color:rgb(15, 248, 50);
+}
+
+.pcores .cinza{
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    background-color:rgb(153, 153, 153);
+    color:#000;
+}
+.fonte{
+    width: 415px;
+    height: 213px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.fonte h3{
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(15, 248, 50);
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.fonte .f1{
+    font-size: 14px;
+    font-family: Tahoma;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    color: #000;
+    
+}
+.fonte .f2{
+    font-size: 14px;
+    font-family: Arial;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    color: #000;
+}
+.fonte .f3{
+    font-size: 14px;
+    font-family: Verdana;
+    margin-top: 10px;
+    width: 250px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+    color: #000;
+    }
+.h3{
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        color:rgb(15, 248, 50);
+        font-family: tahoma, arial;
+        width: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+.persona span{
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(15, 248, 50);
+        font-family: tahoma, arial;
+    }
+
+.persona2 span{
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(15, 248, 50);
+        font-family: tahoma, arial;
+    }
+    
+.persona {
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    }
+
+.persona2 {
+        border-radius: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        }
+    
+
+.pimg img {
+    border-radius: 50%;
+    border: 10px solid #000;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.identidade{
+    font-size: 12px;
+    color:black;
+    font-family: tahoma, arial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    }
+
+.contx{
+    font-size: 12px;
+    color:black;
+    font-family: tahoma, arial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    }
+
+/*produtos.html css*/
+
+.imgPrd{
+    background-image: url(../img/imagensA.png);
+    width: 130px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.imgPos-1{background-position: 293px 290px;}
+.imgPos-2{background-position: -4px 290px;}
+.imgPos-3{background-position: 440px 290px;}
+.imgPos-4{background-position: 735px 290px;}
+.imgPos-5{background-position: 822px 477px;}
+.imgPos-6{background-position: 964px 477px;}
+.imgPos-7{background-position: 1102px 477px;}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destaque {
+    margin-left: auto;
+    width: fit-content;
+    margin-top: 30px;
+    color: rgb(231, 8, 8);
+    margin-right: 2px;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+.box .destaque {
+    font-size: 14px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box {
+    display: block;
+    border: 1px solid;
+    padding: 5px;
+    width: 22.3%;
+    cursor: pointer;
+    transition: transform .3s ease;
+    padding-top: 35px;
+}
+
+/*servicos.html css*/
+
+.servs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servs h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    font-family: tahoma, arial;
+    padding: 16px 0 20px 6px;
+    width: 100%;
+}
+
+.serv-1 .img1{
+    background-image: url(../img/pivo.png);
+    background-position: -15px 286px;
+    width: 100%;
+    height: 290px;
+}
+.serv-1 h4{
+    font-size: 18px;
+    color: black;
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+}
+.serv-1 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+.serv-2 h4{
+    font-size: 18px;
+    color: black;
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.serv-2 .img2{
+    background-image: url(../img/inoculante.png);
+    background-position: 595px 290px;
+    width: 100%;
+    height: 290px;
+}
+.serv-2 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+.serv-1, .serv-2, .serv-3, .serv-4 {
+    display: block;
+    width: 471px;
+}
+
+.serv-3 h4{
+    font-size: 18px;
+    color: black;
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.serv-3 .img3{
+    background-image: url(../img/dedetizadora.png);
+    background-position: 551px 290px;
+    width: 100%;
+    height: 290px;
+}
+.serv-3 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+.serv-4 h4{
+    font-size: 18px;
+    color: black;
+    font-family: tahoma, arial;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.serv-4 .img4{
+    background-image: url(../img/linear.png);
+    background-position: 500px 303px;
+    width: 100%;
+    height: 290px;
+}
+.serv-4 p{
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+}
+
+/*Fale Conosco*/
+
+
+.boxe{
+    margin: 20px;
+    border: 2px solid #333;
+}
+
+.cores, .btnAcao {
+    background-color: #333;
+    height: 40px;
+}
+
+.cores h1{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.caixas{
+    /* border: 1px solid red; */
+    float: right;
+    width: 150px;
+    cursor: pointer;
+}
+
+.caixas .caixa{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000; 
+    margin: 6px;
+    float: left;
+}
+
+.formulario{
+    background-color: #000;
+    padding: 30px;
+}
+
+.formulario label{
+    display: block;
+    border-top: 1px double #5e5a5a;
+    border-bottom: 1px double #5e5a5a;
+    height: auto;
+    line-height: 24px;
+}
+
+label span{
+    width: 80px;
+    text-align: right;
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #f3f3f3;
+    vertical-align: top;
+}
+
+label input[type=text], label textarea {
+    border: 1px double rgb(67 62 62);
+    background-color: #8a8888;
+    padding: 10px 10px;
+    width: 400px;
+    color: #fcf7f7;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label textarea {
+    width: 600px;
+}
+
+.btnAcao{
+    text-align: right;
+}
+
+.btnAcao .botao{
+    width: 100px;
+    background-color: #999;
+    height: 30px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.msgErro{
+    border: 2px dashed tomato;
+    background-color: #f2c6c6;
+    height: 39px;
+    text-align: center;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 44px;
+    display: none;
+}
+
+
