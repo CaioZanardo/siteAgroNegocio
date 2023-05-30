@@ -1,2 +1,1 @@
-# siteAgroNegocio
-Conteúdo criado nas aulas de RESPONSIVE WEB DESIGN
+# Conteúdo criado nas aulas de RESPONSIVE WEB DESIGN
