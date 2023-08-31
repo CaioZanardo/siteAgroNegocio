@@ -4,7 +4,7 @@ body{
     color: rgb(153, 153, 153);
     font-size: 14px;
 	background-color: #fff;
-	font-family: tahoma, arial, verdana;
+	font-family: arial;
     background-image: url(../img/fundo.png);
     background-repeat: repeat-x;
 }
